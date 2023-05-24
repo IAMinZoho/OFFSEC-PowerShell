@@ -1,8 +1,5 @@
 <#
-    Author: Matan Hart (@machosec)
-    License: GNU v3
-    Required Dependencies: None
-    Optional Dependencies: None
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/IAMinZoho/OFFSEC-PowerShell/main/Find-PotentiallyCrackableAccounts.ps1'))  
 #>
 
 function Find-PotentiallyCrackableAccounts
